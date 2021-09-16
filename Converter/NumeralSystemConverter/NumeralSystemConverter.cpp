@@ -57,10 +57,11 @@ void Convert() {
 		decimal /= new_ns;
 	}
 
-	// Convert fraction part to target system
+	// Convert fraction part to target system with set precision
 	if (orig_frac > 0) {
 		float whole = 0, frac = 0;
-		for (int i = 0; i < 3; i++) {
+		int precision = 3;
+		for (int i = 0; i < precision; i++) {
 			orig_frac *= new_ns;
 			orig_frac = modf(orig_frac, &whole);
 			res += table.at(whole);
