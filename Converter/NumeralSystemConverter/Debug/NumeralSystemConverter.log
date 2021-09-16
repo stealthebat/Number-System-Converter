@@ -1,0 +1,6 @@
+﻿  NumeralSystemConverter.cpp
+C:\Users\Uzver\source\repos\Converter\NumeralSystemConverter\NumeralSystemConverter.cpp(40,61): warning C4244: '+=': conversion from 'double' to 'float', possible loss of data
+C:\Users\Uzver\source\repos\Converter\NumeralSystemConverter\NumeralSystemConverter.cpp(49,20): warning C4018: '<': signed/unsigned mismatch
+C:\Users\Uzver\source\repos\Converter\NumeralSystemConverter\NumeralSystemConverter.cpp(50,88): warning C4244: '+=': conversion from 'long double' to 'unsigned __int64', possible loss of data
+C:\Users\Uzver\source\repos\Converter\NumeralSystemConverter\NumeralSystemConverter.cpp(65,20): warning C4244: 'argument': conversion from 'float' to 'const unsigned int', possible loss of data
+  NumeralSystemConverter.vcxproj -> C:\Users\Uzver\source\repos\Converter\Debug\NumeralSystemConverter.exe
